@@ -1,27 +1,19 @@
 backend:
   name: github
   repo: yte0/testpage
-  branch: main
-  base_url: https://cmsapitest1.herokuapp.com
+  branch: dev
+  base_url: https://prod-mong-api.skde.org
 
 media_folder: public/img
-publish_mode: editorial_workflow 
 public_folder: img
-logo_url: https://www.skde.no/img/logos/SKDE_sort.png
-slug:
-  encoding: "ascii"
-  clean_accents: true
-  sanitize_replacement: "_"
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "_post/blog"
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  - label: "Aktuelt"
+    name: "aktuelt"
+    folder: "_posts/testatals"
     create: true
     fields:
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
+      - { label: "Tittel", name: "title", widget: "string" }
       - { label: "Ingress", name: "ingress", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Article Image", name: "thumbnail", widget: "image" }
-      
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Artikkelbilde", name: "thumbnail", widget: "image" }
