@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: yte0/testpage
+  branch: dev
+  base_url: https://cmsapitest1.herokuapp.com
+  site_url: https://yte0.github.io/testpage
+  
+logo_url: https://www.skde.no/img/logos/SKDE_sort.png
+publish_mode: editorial_workflow 
+media_folder: public/img
+public_folder: img
+local: 'no'
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+collections:
+  - label: "Blog"
+    name: "blog"
+    folder: "_post/blog"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    create: true
+    fields:
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Ingress", name: "ingress", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Article Image", name: "thumbnail", widget: "image" }
+
+ - label: "Post"
+   name: "post"
+   folder: "_post/post"
+   description: optional text, displayed below the label when viewing a collection
+   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+   create: true
+   fields:
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Ingress", name: "ingress", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Article Image", name: "thumbnail", widget: "image" }
+      
