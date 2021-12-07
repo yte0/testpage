@@ -3,7 +3,6 @@ backend:
   repo: yte0/testpage
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
-  site_url: https://yte0.github.io
 
 media_folder: public/img
 publish_mode: editorial_workflow 
