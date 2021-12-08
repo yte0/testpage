@@ -35,6 +35,8 @@ collections:
     create: true
     filter: {field: "language", value: "en"}
     fields:
+      - {label: "Draft", name: "draft", widgit: "boolean",  default: true}
+      - {label: "Code", name: "code", widgit: "code", allow_language_selection: true, default_language: "Python", output_code_only: false }
       - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Content", name: "body", widget: "markdown"}
