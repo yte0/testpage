@@ -1,1 +1,11 @@
-{}
+{
+  "team": [
+    {
+      "name": "sr",
+      "position": "sdf",
+      "photo": "img/tn1.png"
+    }
+  ],
+  "intro": "sdf",
+  "title": "sdf"
+}
