@@ -131,7 +131,7 @@ collections:
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
   - label: "About"
-    name: "about "
+    name: "abo"
     files:
       - label: "About Page"
         name: "about"
