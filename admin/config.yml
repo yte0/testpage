@@ -146,4 +146,13 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Position, name: position, widget: string}
               - {label: Photo, name: photo, widget: image}
-      
+              - {label: Intro, name: intro, widget: markdown}
+        - label: "Address"
+          name: "address"
+          widget: "object"
+          collapsed: true
+          fields: 
+            - {label: "Street Address", name: "street", widget: "string"}
+            - {label: "City", name: "city", widget: "string"}
+            - {label: "Postal Code", name: "post-code", widget: "string"}
+          
