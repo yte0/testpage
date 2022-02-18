@@ -156,3 +156,6 @@ collections:
               - {label: "City", name: "city", widget: "string"}
               - {label: "Postal Code", name: "post-code", widget: "string"}
           
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "My Custom Widget", name: "mywidgetname", widget: "mywidget"}
