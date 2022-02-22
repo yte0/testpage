@@ -1,11 +1,28 @@
 {
-  "team": [
-    {
-      "name": "sdf",
-      "position": "asdf",
-      "photo": "img/tn1.png"
-    }
-  ],
+  "team": [],
   "intro": "sdf",
-  "title": "sdf"
+  "title": "sdf",
+  "sections": [
+    {
+      "type": "spotlight",
+      "header": "Spotlight",
+      "template": "spotlight.html",
+      "text": "Hello World"
+    },
+    {
+      "type": "carousel",
+      "header": "Image Gallery",
+      "template": "carousel.html",
+      "images": [
+        "img/Skjermbilde.PNG",
+        "img/Skjermbilde.PNG"
+      ]
+    },
+    {
+      "type": "spotlight",
+      "header": "Spotlight lkad flokjlk j",
+      "template": "lkjlkj lkjl sladh froiewhoih",
+      "text": "Hello "
+    }
+  ]
 }
