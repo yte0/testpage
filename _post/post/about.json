@@ -10,12 +10,6 @@
       "text": "Hello World"
     },
     {
-      "type": "spotlight",
-      "header": "Spotlight lkad flokjlk j",
-      "template": "lkjlkj lkjl sladh froiewhoih",
-      "text": "Hello "
-    },
-    {
       "type": "carousel",
       "header": "Image Gallery",
       "template": "carousel.html",
@@ -23,6 +17,12 @@
         "img/Skjermbilde.PNG",
         "img/Skjermbilde.PNG"
       ]
+    },
+    {
+      "type": "spotlight",
+      "header": "Spotlight lkad flokjlk j",
+      "template": "lkjlkj lkjl sladh froiewhoih",
+      "text": "Hello "
     }
   ]
 }
